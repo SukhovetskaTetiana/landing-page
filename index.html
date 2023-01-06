@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Coolbeary page</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header id="header">
+        <img width=200 id="header-img" src="img/coolbeary-page-logo.jpg" alt="Logo Coolbeary">
+        <nav id="nav-bar">
+            <a class="nav__link" href="#main__invite">Services</a>
+            <a class="nav__link" href="#main__table">How It Work</a>
+            <a class="nav__link" href="#main__summer">Seasons</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="main__invite">
+            <h1 class="main__invite-title">Blueberry</h1>
+            <p class="main_invite-slogan">a berry that enchants</p>
+            <form class="main__invite-form" action="https://formspree.io/f/xrgdnwao" method="post">
+                <input type="email" placeholder="Enter your email address" required name="email" id="form">
+                <input type="submit" id="submit" value="Send">
+            </form>
+        </section>
+
+        <table id="main__table">
+            <tr class="main__table-discription">
+                <td class="table__discription-right">1</td>
+                <td class="table__discription-left">
+                    <h2>The freshest berries</h2>
+                    <p>we first accept the order, and only then remove the berry from the bush.
+                        The berry is not tortured by a long stay on the shelves in stores and markets;</p>
+                </td>
+            </tr>
+            <tr class="main__table-discription">
+                <td class="table__discription-right">2</td>
+                <td class="table__discription-left">
+                    <h2>Maximum ripe berry</h2>
+                    <p>we do not hurry to pick the berry, but let each berry ripen and acquire
+                        its own taste. The berry is fresh, whole and clean;</p>
+                </td>
+            </tr>
+            <tr class="main__table-discription">
+                <td class="table__discription-right">3</td>
+                <td class="table__discription-left">
+                    <h2>The most ecological berry</h2>
+                    <p>Coolberry field is a small family plantation. First of all, friends are our
+                        customers, and new customers become our friends. So we eat ourselves
+                        and treat our friends;</p>
+                </td>
+            </tr>
+        </table>
+
+        <article class="main__how-grow">
+            <h2>Look how our berry grows</h2>
+            <video id="video" controls width="500">
+                <source src="video/berry_grows.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/berry_grows.webm" type='video/webm; codecs="vp8, vorbis"'>
+                <source src="video/berry_grows.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <p>Sorry, your browser does not support the element</p>
+            </video>
+        </article>
+
+        <div id="main__summer">
+            <div class="main__summer-june">
+                <h2>June</h2>
+                <div class="main__summer-photo">
+                    <img width=200 class="summer__photo-june" src="img/berry-june.JPG" alt="Blueberrys photo in june">
+                </div>
+            </div>
+            <div class="main__summer-july">
+                <h2>July</h2>
+                <div class="main__summer-photo">
+                    <img width=200 class="summer__photo-july" src="img/berry-july.JPG" alt="Blueberrys photo in july">
+                </div>
+            </div>
+            <div class="main__summer-august">
+                <h2>August</h2>
+                <div class="main__summer-photo">
+                    <img width=200 class="summer__photo-august" src="img/berry_august.JPG"
+                        alt="Blueberrys photo in August">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer__bar">
+            <a href="#form">Go Email</a>
+            <a href="#video">Go Video</a>
+            <a href="#main__summer">Go Photo</a>
+        </nav>
+        <span class="footer__text">Copyright 2022, Coolbeary</span>
+    </footer>
+
+</body>
+
+</html>
